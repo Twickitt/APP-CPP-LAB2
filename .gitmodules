@@ -1,0 +1,6 @@
+[submodule "extern/LIN-LIB-LAB2"]
+	path = extern/LIN-LIB-LAB2
+	url = https://github.com/Twickitt/LIN-LIB-LAB2.git
+[submodule "extern/Graph-CPP_LAB2"]
+	path = extern/Graph-CPP_LAB2
+	url = https://github.com/Twickitt/Graph-CPP_LAB2.git
