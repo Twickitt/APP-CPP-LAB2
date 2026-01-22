@@ -5,7 +5,7 @@ add_subdirectory(extern/LIN-LIB-LAB2)
 add_subdirectory(extern/Graph-CPP_LAB2)
 #add_subdirectory(Tests/)
 
-add_executable(APP source/app.cpp)
+add_executable(APP source/app.cpp source/main.cpp)
 
 target_include_directories(APP PUBLIC ${CMAKE_SOURCE_DIR}/extern/LIN-LIB-LAB2/include)
 target_include_directories(APP PUBLIC ${CMAKE_SOURCE_DIR}/extern/Graph-CPP_LAB2/include)
