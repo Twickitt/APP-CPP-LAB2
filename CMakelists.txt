@@ -9,6 +9,7 @@ add_executable(APP source/app.cpp)
 
 target_include_directories(APP PUBLIC ${CMAKE_SOURCE_DIR}/extern/LIN-LIB-LAB2/include)
 target_include_directories(APP PUBLIC ${CMAKE_SOURCE_DIR}/extern/Graph-CPP_LAB2/include)
+target_include_directories(APP PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 #target_link_libraries(Testing_prog PUBLIC LIN-LIB-LAB2 gtest_main)
 target_link_libraries(APP PUBLIC LIN-LIB-LAB2)
 target_link_libraries(APP PUBLIC Graph-CPP_LAB2)
